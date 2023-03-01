@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 2px dashed black;
+}
+
+html{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+.container-100vh{
+    height: 100vh;
+}
+
+.relative{
+    position: relative;
+}
+
+.bg-dark{
+    background-color: rgb(20, 20, 20);
+}
+
+.bg-gray{
+    background-color: rgb(68, 68, 68);
+}
+
+.absolute{
+    position: absolute;
+}
+
+.right-top-20{
+    right: 20px;
+    top: 20px;
+
+}
+
+/* .right{
+    right: 20px;
+}
+
+.top-20{
+    top: 20px;
+} */
+
+.labels{
+    background-color: rgb(142, 142, 142);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.labels:first-child{
+    margin-right: 20px;
+}
+
+.labels:first-child{
+    margin-right: 10px;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.ab-full-orz{
+    left: 0;
+    right: 0;
+}
+
+.flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-colum{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.p-20{
+    padding: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mx-10{
+    margin: 0 10px;
+}
+
+.end-meeting{
+    background-color: rgb(31, 31, 31);
+    color: red;
+    padding: 20px;
+}
