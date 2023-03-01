@@ -39,6 +39,10 @@ html{
 
 }
 
+.left-0{
+    left: 0;
+}
+
 /* .right{
     right: 20px;
 }
@@ -116,3 +120,34 @@ html{
     color: red;
     padding: 20px;
 }
+
+.card{
+    flex-basis: calc(100% / 7 - 3%);
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.zoom-label{
+    /* padding: 10px; */
+    background-color: rgb(119, 119, 119);
+}
+
+img{
+    display: block;
+}
+
+.z-index-1{
+    z-index: 1;
+
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.h-75{
+    height: 75%;
+}
+
